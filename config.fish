@@ -1,8 +1,8 @@
 # Path to Oh My Fish install.
-set -gx OMF_PATH "/Users/wilson.junior/.local/share/omf"
+set -gx OMF_PATH "/Users/carlos.guerra/.local/share/omf"
 
 # Customize Oh My Fish configuration path.
-#set -gx OMF_CONFIG "/Users/wilson.junior/.config/omf"
+#set -gx OMF_CONFIG "/Users/carlos.guerra/.config/omf"
 
 # homebrew
 set -gx HOMEBREW_PREFIX "/opt/homebrew";
@@ -23,11 +23,11 @@ set VIRTUALFISH_COMPAT_ALIASES
 set GREP_OPTIONS '--color=always'
 set -g theme_display_k8s_context yes
 
-source /Users/wilson.junior/Library/Python/3.8/lib/python/site-packages/virtualfish/virtual.fish
-source /Users/wilson.junior/Library/Python/3.8/lib/python/site-packages/virtualfish/auto_activation.fish
-source /Users/wilson.junior/Library/Python/3.8/lib/python/site-packages/virtualfish/compat_aliases.fish
-source /Users/wilson.junior/Library/Python/3.8/lib/python/site-packages/virtualfish/global_requirements.fish
-source /Users/wilson.junior/Library/Python/3.8/lib/python/site-packages/virtualfish/projects.fish
+source /Library/Python/3.8/site-packages/virtualfish/virtual.fish
+source /Library/Python/3.8/site-packages/virtualfish/auto_activation.fish
+source /Library/Python/3.8/site-packages/virtualfish/compat_aliases.fish
+source /Library/Python/3.8/site-packages/virtualfish/global_requirements.fish
+source /Library/Python/3.8/site-packages/virtualfish/projects.fish
 source $HOME/.config/fish/completions/kubectl_aliases.fish
 emit virtualfish_did_setup_plugins
 
